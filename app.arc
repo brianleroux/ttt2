@@ -6,8 +6,10 @@ folder build
 spa true
 
 @http
-get /api
-
+/api
+  method get
+  path src/http/get-api
+  
 @tables
 data
   scopeID *String
